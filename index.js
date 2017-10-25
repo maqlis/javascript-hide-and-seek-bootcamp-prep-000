@@ -6,7 +6,7 @@ function nestedTarget(){
 }
 function deepestChild(){
   var lista = document.querySelectorAll("#grand-node div")
-  for (let i = 0; i<lista.length; i++){
+  for (var i = 0; i<lista.length; i++){
 
   }
   return lista[i]
