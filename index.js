@@ -11,3 +11,6 @@ function deepestChild(){
   }
   return lista[lista.length - 1]
 }
+function increaseRankBy(n){
+  
+}
