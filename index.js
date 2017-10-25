@@ -5,5 +5,9 @@ function nestedTarget(){
   return document.querySelector("#nested .target")
 }
 function deepestChild(){
-  return document.querySelector("#grand-node :last-child")
+  var lista = document.querySelectorAll("#grand-node div")
+  for (let i = 0; i<lista.length; i++){
+    
+  }
+  return lista[i]
 }
